@@ -110,7 +110,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Remote Notifications")),
+      appBar: AppBar(title: const Text("Remote Notifications App")),
       body: Center(
         child: ElevatedButton(
           onPressed: () async {
